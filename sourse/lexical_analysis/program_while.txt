@@ -1,0 +1,12 @@
+program {
+	boolean b1 = true, b2 = false;
+	int a = 1, b = 2, c = 3;
+	string s1 = "abc", s2 = "abcd";
+
+	while (a < 5) {
+		write(s1);
+		a = a + 1;
+		s1 = s1 + s2;
+	}	
+
+}

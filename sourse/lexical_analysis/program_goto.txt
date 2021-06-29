@@ -1,0 +1,17 @@
+program {
+	boolean b1 = true, b2 = false;
+	int a = 1, b = 2, c = 3;
+	string s1 = "abc", s2 = "abcd";
+
+start:
+
+	write(a);
+	a = a + 4;
+	if (a > 20)
+		goto out;
+
+	if (a < 30)
+		goto start;
+
+out:
+}

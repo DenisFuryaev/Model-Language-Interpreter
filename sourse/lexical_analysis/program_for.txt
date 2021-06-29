@@ -1,0 +1,17 @@
+program {
+	boolean b1 = true, b2 = false;
+	int a = 1, b = 7, c = 3;
+	string s1 = "abc", s2 = "abcd";
+
+	for (a = 0; a < 10; a = a + 1) {
+		while(b >= 5) {
+			write("b");
+			write(b);
+			b = b - 1;
+		}
+		b = 7;
+		write(a);
+		s1 = s1 + "xy";
+	}
+	write(s1, s2);
+}

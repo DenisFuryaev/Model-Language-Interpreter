@@ -1,0 +1,14 @@
+program {
+	boolean b1 = true, b2 = false;
+	int a = 1, b = 2, c = 3;
+	string s1 = "abc", s2 = "abcd";
+
+	if (b1)
+		write(a,b,c);
+
+	if (not b2 and (b2 or (s1 > s2)))
+		write(b1, b2);
+
+	b2 = s1 <= s2;
+	write(b1, b2);
+}
