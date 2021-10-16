@@ -1,4 +1,4 @@
-# Model_Language_Interpreter
+# Model Language Interpreter
 Задание 2 курса 4 семестра ВМК 2020 год
 
 Интерпретатор модельного языка программирования
